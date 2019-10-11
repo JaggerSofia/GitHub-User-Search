@@ -1,0 +1,25 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+button, 
+input[type='text'] {
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#js-error-message {
+    color: red;
+}
+
+.hidden {
+    display:none;
+}
