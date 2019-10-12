@@ -28,8 +28,9 @@ function displayResults(responseJson) {
     $('#results-list').empty();
     for (let i in responseJson){
         let repo = responseJson[i];
-        let output = `<a href='${repo.html_url} target='_blank'>${repo.name}</a><br></br>`;
+        let output = `<a href='${repo.html_url}' target='_blank'>${repo.name}</a><br></br>`;
         $('#results-list').append(output);
+        console.log('responseJson')
     }
     $('.hidden').removeClass('hidden');
 }
